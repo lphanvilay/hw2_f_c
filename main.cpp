@@ -1,6 +1,6 @@
 #include <iostream>
+#include "polygon.cpp"
 using namespace std;
-#include <polygon.cpp>
 
 int main() {
 Polygon polygon{};
@@ -14,5 +14,6 @@ for(int i=1;i<=5;i++){
 		cout << "A negative length was given, try again " << endl;
 		break;}
 }
-cout << "The perimeter of the 5-sided polygon is" << polygon.perimeter() << endl;
+cout << "The perimeter of the " << polygon.get_sides() <<"-sided polygon is" << polygon.get_perimeter() << endl;
+return 0;
 }
