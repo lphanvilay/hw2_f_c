@@ -14,5 +14,5 @@ for(int i=1;i<=5;i++){
 		cout << "A negative length was given, try again " << endl;
 		break;}
 }
-cout << "The perimeter of the 5-sided polygon is 15 << 
+cout << "The perimeter of the 5-sided polygon is" << polygon.perimeter() << endl;
 }

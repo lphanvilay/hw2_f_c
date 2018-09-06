@@ -6,12 +6,12 @@ class Polygon {
 	int sides = 0;
 	Public:
 	Polygon():  {}
-	double add_side() {
+	double add_side(double length) {
+		perimeter+=length;
+		sides++;
 		return;}
 	double get_perimeter() {
-		perimeter=length;}
+		return perimeter;}
 	int get_sides() {
-		;}
-	Private:
-		perimeter;
-		sides;
+		return sides;}
+};
